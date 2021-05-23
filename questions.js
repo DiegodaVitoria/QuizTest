@@ -3,7 +3,7 @@ let questions = [
  {
   numb: 1,
   question: "Quem foi a primeira pessoa a viajar no Espaço?",
-  answer: "Neil Armstrong",
+  answer: "Yuri Gagarin",
   options: [
    "Yuri Gagarin",
    "A cadela Laika",
