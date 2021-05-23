@@ -44,12 +44,12 @@ let questions = [
   ]
  }, {
   numb: 5,
-  question: "Que animal põe o maior ovo?",
+  question: "Que animal põe mais ovos?",
   answer: "Tartaruga-gigante",
   options: [
    "Beija-flor",
    "Avestruz",
-   "Tartaruga-gigante",
+   "Peixe-lua",
    "Galinha"
   ]
  },
