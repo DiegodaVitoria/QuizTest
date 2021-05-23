@@ -207,6 +207,6 @@ function startTimerLine(time){
 
 function queCounter(index){
     //criando uma nova tag de span e passando o número da pergunta e a pergunta total
-    let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
+    let totalQueCounTag = '<span><p>'+ index +'</p> de <p>'+ questions.length +'</p> Questões</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //aadicionando nova tag de span dentro do ques_counter inferior
 }
