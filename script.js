@@ -79,7 +79,7 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine); 
         startTimer(timeValue); 
         startTimerLine(widthValue); 
-        timeText.textContent = "Time Left"; 
+        timeText.textContent = "Time"; 
         next_btn.classList.remove("show"); 
     }else{
         clearInterval(counter); 
@@ -176,7 +176,7 @@ function startTimer(time){
         }
         if(time < 0){ 
             clearInterval(counter); 
-            timeText.textContent = "Time Off"; 
+            timeText.textContent = "Time"; 
             const allOptions = option_list.children.length; 
             let correcAns = questions[que_count].answer; 
             for(i=0; i < allOptions; i++){
