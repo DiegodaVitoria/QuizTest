@@ -183,7 +183,7 @@ function startTimer(time){
                 if(option_list.children[i].textContent == correcAns){ 
                     option_list.children[i].setAttribute("class", "option correct"); 
                     option_list.children[i].insertAdjacentHTML("beforeend", tickIconTag); 
-                    console.log("Time Off: Auto selected correct answer.");
+                    console.log("Time: Auto selected correct answer.");
                 }
             }
             for(i=0; i < allOptions; i++){
